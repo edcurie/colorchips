@@ -1,32 +1,42 @@
-.chip {
-    height: 60px;
-    width: 120px;
-    padding: 18px;
-    margin-bottom: 12px !important;
-}
 
-.headliners{
+.headliners {
     padding: 16px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: larger;
 }
 
-.content{
+.is-active{
+    background-color: #2C2F54 !important;
+}
+
+.content {
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: medium;
     color: #2C2F54;
 }
 
 .card {
     margin: 10px;
-    max-width: 30%;
 }
 
-.alignLeft{
+.alignLeft {
     float: left;
 }
 
-.alignRight{
+.alignRight {
     float: right;
 }
+
+.menu {
+    position: sticky;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 100vh;
+    overflow-y: auto;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
