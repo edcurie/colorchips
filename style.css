@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300@400@500&display=swap');
+
 
 .headliners {
-    padding: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     font-size: larger;
 }
 
@@ -10,9 +11,11 @@
     background-color: #2C2F54 !important;
 }
 
+
 .content {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter', sans-serif;
     font-size: medium;
+    font-weight: 400;
     color: #2C2F54;
 }
 
@@ -32,10 +35,24 @@
     position: sticky;
     display: inline-block;
     vertical-align: top;
-    max-height: 100vh;
+    height: 100%;
     overflow-y: auto;
     width: 200px;
     top: 0;
     bottom: 0;
     padding: 30px;
 }
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
